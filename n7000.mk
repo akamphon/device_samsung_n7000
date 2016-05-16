@@ -37,15 +37,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Netmgr dependency on libstlport
 PRODUCT_PACKAGES += \
-	libstlport \
-    OTAUpdates
+	libstlport
+	
 # Sensors
 PRODUCT_PACKAGES += \
     sensors.exynos4
-
-# OTA Update
-PRODUCT_PACKAGES += \
-    OTAUpdates
 
 # Snap Camera
 # PRODUCT_PACKAGES += \
